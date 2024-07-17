@@ -3,6 +3,8 @@
     {
       "date": "2021-12-13",
       "title": "Early Childhood Development Program",
+      "imageUrl": "projects/2021ecd/images/project1.webp",
+      "link": "projects/2021ecd/index.html",
       "shortDescription": "Launch of the National Multi-sectoral Early Childhood Development Programme.",
       "details": {
         "overview": "Tanzania launched its first multisectoral ECD program 'National Multi-sectoral Early Childhood Development Programme' (NMECDP 2021/22-2025/26) on December 13, 2021. With this, Tanzania is counted among the first countries in Eastern and Central Africa to launch such a multi-sectoral ECD Program and second in Africa after South Africa. This is a great achievement for Tanzania.",
@@ -22,6 +24,8 @@
     {
       "date": "2021-04-16",
       "title": "NAIA Launch Dodoma",
+      "imageUrl": "projects/2021naia/images/project1.webp",
+      "link": "projects/2021naia/index.html",
       "shortDescription": "Launch of the National Accelerated Action and Investment Agenda for Adolescent Health and Wellbeing.",
       "details": {
         "overview": "On 16 April 2021, the government of Tanzania launched the National Accelerated Action and Investment (NAIA) Agenda for Adolescent Health and Wellbeing 2020/21-2023/24 at a high-level event held in Dodoma. The event was graced by Hon. Kassim Majaliwa Majaliwa, Prime Minister of the United Republic of Tanzania.",
@@ -40,6 +44,8 @@
     {
       "date": "2021-04-29",
       "title": "Tacaids Dodoma Conference",
+      "imageUrl": "projects/2021tacaids/images/project1.webp",
+      "link": "projects/2021tacaids/index.html",
       "shortDescription": "Annual Meeting of Stakeholders Implementing HIV and AIDS Interventions.",
       "details": {
         "overview": "On the 29th and 30th of April, TACAIDS together with its partners conducted the Annual Meeting of Stakeholders Implementing HIV and AIDS Interventions targeting Adolescent Girls and Young Women.",
@@ -65,10 +71,29 @@
     {
       "date": "2024-06-20",
       "title": "The Day of the African Child 2024",
+      "imageUrl": "projects/2024unicef-dayofafricanchild/images/project1.webp",
+      "link": "projects/2024unicef-dayofafricanchild/index.html",
       "shortDescription": "Commemoration of the Soweto Uprising and addressing current state of education in Africa.",
       "details": {
         "overview": "The Day of the African Child is a commemoration of the Soweto Uprising in 1976, when students protested against education injustice and inequality in the apartheid regime. Initiated by the Organisation of African Unity (now African Union), it is celebrated on June 16 every year since 1991. 19 Events organised an event to commemorate the Day of the African Child on June 20, 2024, at Karimjee Hall, Dar es Salaam. The event focused on addressing the current state of education in Africa and urging African governments to prioritize education funding, particularly for pre-primary and foundational learning. The event theme was aligned with the African Union's celebration of 2024 as the Year of Education.",
         "role": "19 Events was the main organiser of the event. Our responsibilities included planning and coordinating the event, inviting speakers and guests, managing logistics, and ensuring the smooth execution of the program.",
+        "outcomes": [
+          { "number": "2000+", "name": "Total Event Participation" }
+        ],
+        "eventInfo": [
+          { "category": "Event Video", "link": "https://vimeo.com/966682318/89b4f3b9c1" }
+        ]
+      }
+    },
+    {
+      "date": "2020",
+      "title": "International Womens Day National Celebration 2020",
+      "imageUrl": "projects/2020unwomen/images/project1.webp",
+      "link": "projects/2020unwomen/index.html",
+      "shortDescription": "Commemoration of the Soweto Uprising and addressing current state of education in Africa.",
+      "details": {
+        "overview": "The Day of the African Child is a commemoration of the Soweto Uprising in 1976, when students protested against education injustice and inequality in the apartheid regime. Initiated by the Organisation of African Unity (now African Union), it is celebrated on June 16 every year since 1991. 19 Events organised an event to commemorate the Day of the African Child on June 20, 2024, at Karimjee Hall, Dar es Salaam. The event focused on addressing the current state of education in Africa and urging African governments to prioritize education funding, particularly for pre-primary and foundational learning. The event theme was aligned with the African Union's celebration of 2024 as the Year of Education.",
+        "role": "19 Events efficiently managed the decoration of the high tables, exhibition areas, vendor management for the provision of tents, chairs and tables and provided refreshments for the 5000+ who attended the national events in Dodoma and Simiyu.",
         "outcomes": [
           { "number": "2000+", "name": "Total Event Participation" }
         ],

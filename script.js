@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const projectCardContainer = document.getElementById('project-list');
+    const projectList = document.getElementById('project-list');
   
     fetch('/projects.json')
       .then(response => {
@@ -11,22 +11,22 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(data => {
         if (Array.isArray(data.projects)) {
           data.projects.forEach(project => {
-            const card = document.createElement('div');
-            card.className = 'col-lg-4 col-md-6 mb-4';
-            card.innerHTML = `
-              <div class="card h-100">
-                <img src="${project.image}" class="card-img-top" alt="${project.title}">
-                <div class="card-body">
-                  <h5 class="card-title">${project.title}</h5>
-                  <p class="card-text">${project.shortDescription}</p>
-                  <p class="card-date">${project.date}</p>
+            const projectCard = document.createElement('div');
+            projectCard.setAttribute('data-aos', 'fade-up');
+            projectCard.setAttribute('data-aos-delay', '100');
+            projectCard.className = 'col-lg-4 col-md-6';
+            projectCard.innerHTML = `
+              <div class="hotel" >
+                <div class="hotel-img">
+                  <img src="${project.imageUrl}" alt="${project.title}" class="img-fluid" style="height:325px;width:356.66px;>
                 </div>
-                <div class="card-footer">
-                    <button onclick="viewProject('${project.title}')" class="btn btn-primary">View Details</button>
+                <div class="work-content">
+                  <h3><a href="${project.link}">${project.title}</a></h3>
+                  <p>${project.shortDescription}</p>
                 </div>
               </div>
             `;
-            projectCardContainer.appendChild(card);
+            projectList.appendChild(projectCard);
           });
         } else {
           console.error('Error: Data is not an array');
