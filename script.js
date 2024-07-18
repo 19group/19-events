@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  
     const projectList = document.getElementById('project-list');
   
     fetch('/projects.json')
