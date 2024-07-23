@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Load the common sections
+  // Loads the common sections
   $('#pageheadersection').load('projectheader.html');
   $('#projectdetailssection').load('projectdetails.html');
   $('#projecttestimonial').load('projecttestimonial.html');
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   $('.colorband').load('projectcolorband.html');
   $('#footer').load('projectfooter.html');
 
-  // Retrieve the selected project title from local storage
+  // Retrieves the selected project title from local storage
   const selectedProjectTitle = localStorage.getItem('selectedProject');
 
   // Fetch the project data
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (Array.isArray(data.projects)) {
         const project = data.projects.find(p => p.title === selectedProjectTitle);
         if (project) {
-          populateProjectDetails(project);
+          appendHTML(project);
         } else {
           console.error('Error: Project not found');
         }
@@ -34,37 +34,47 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => console.error('Error fetching project data:', error));
 });
 
-function populateProjectDetails(project) {
-  // Populate the main header and paragraphs
-  document.getElementById('mainheader').textContent = project.title;
-  document.getElementById('mainparagraph').textContent = project.details.overview;
-  document.getElementById('roleparagraph').textContent = project.details.role;
-
-  // Populate additional paragraphs if available
-  const paragraphs = ['subparagraph1', 'subparagraph2', 'subparagraph3', 'subparagraph4'];
-  project.details.outcomes.forEach((outcome, index) => {
-    if (index < paragraphs.length) {
-      document.getElementById(paragraphs[index]).textContent = `${outcome.name}: ${outcome.number}`;
-    }
+function appendHTML(data) {
+  // Adds more information to the page
+  $.each(data.details.eventInfo, function(key, val) {
+    var category = $("<label>" + val.category + "</label>" +
+      "<a href='" + val.link + "' target='_blank'>" +
+      "<p>" + val.link + "</p>" +
+      "</a>");
+    $("#eventinfocontainer").append(category);
   });
 
-  // Populate event info
-  const eventInfoContainer = document.getElementById('eventinfocontainer');
-  project.details.eventInfo.forEach(info => {
-    const infoItem = document.createElement('p');
-    const infoLink = document.createElement('a');
-    infoLink.href = info.link;
-    infoLink.textContent = info.category;
-    infoLink.target = '_blank';
-    infoItem.appendChild(infoLink);
-    eventInfoContainer.appendChild(infoItem);
+  var projectheader = "<h1 class='mb-4 pb-0'>" + data.title + "</h1>";
+  // Add the main page components
+  $("#pageheadercontainer").append(projectheader);
+  $("#mainparagraph").append(data.details.overview);
+  $("#subparagraph1").append(data.details.additionalParagraph1);
+  $("#subparagraph2").append(data.details.additionalParagraph2);
+  $("#subparagraph3").append(data.details.additionalParagraph3);
+  $("#subparagraph4").append(data.details.additionalParagraph4);
+  $("#roleparagraph").append(data.details.role);
+
+  // Populates outcomes
+  const outcomeContainer = document.getElementById('outcomecontainer');
+  data.details.outcomes.forEach(outcome => {
+    const outcomeDiv = document.createElement('div');
+    outcomeDiv.className = 'col-lg-3 project-stats';
+    outcomeDiv.innerHTML = `
+      <div class="row justify-content-center">
+        <div class="col-11 col-lg-8 position-relative">
+          <h1>${outcome.number}</h1>
+          <p>${outcome.name}</p>
+        </div>
+      </div>
+    `;
+    outcomeContainer.appendChild(outcomeDiv);
   });
 
-  // Populate testimonials if available
-  if (project.details.testimonials) {
+  // Populates testimonials if available
+  if (data.details.testimonials) {
     const testimonialContainer = document.createElement('div');
     testimonialContainer.className = 'testimonials';
-    project.details.testimonials.forEach(testimonial => {
+    data.details.testimonials.forEach(testimonial => {
       const testimonialBlock = document.createElement('blockquote');
       const testimonialText = document.createElement('p');
       const testimonialCite = document.createElement('cite');
