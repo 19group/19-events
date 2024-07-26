@@ -55,14 +55,23 @@ function setHeroHeaderBackground(project) {
 }
 
 function appendHTML(data) {
+  // Add more information to the page
+  $.each(data.details.eventInfo, function(key, val) {
+    var category = $("<label>" + val.category + "</label>" +
+      "<a href='" + val.link + "' target='_blank'>" +
+      "<p>" + val.link + "</p>" +
+      "</a>");
+    $("#eventinfocontainer").append(category);
+  });
+  
   var projectheader = "<h1 class='mb-4 pb-0'>" + data.title + "</h1>";
   // Add the main page components
   $("#pageheadercontainer").append(projectheader);
   $("#mainparagraph").append(data.details.overview);
-  $("#subparagraph1").append(data.details.additionalParagraph1);
-  $("#subparagraph2").append(data.details.additionalParagraph2);
-  $("#subparagraph3").append(data.details.additionalParagraph3);
-  $("#subparagraph4").append(data.details.additionalParagraph4);
+  $("#subparagraph1").append(data.details.subparagraph1);
+  $("#subparagraph2").append(data.details.subparagraph2);
+  $("#subparagraph3").append(data.details.subparagraph3);
+  $("#subparagraph4").append(data.details.subparagraph4);
   $("#roleparagraph").append(data.details.role);
 
   // Populate outcomes
