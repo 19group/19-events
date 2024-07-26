@@ -9,11 +9,14 @@
   "subparagraph4":"",
   "role":"Conceptualization, Design and branding, Programme preparation, briefing presenters, logistics, and attendee registration.",
 	"outcomes":
-	[{"number":"150+","name":"Total Participation"},
-     {"number":"15","name":"Performances and Stories Shared"},
-     {"number":"15K+","name":"Total Social Media Views"}
-   ],
-    "eventinfo":
-    [{"category":"Event Photos","link":"https://bit.ly/3dy4Z7E"}
-     ]
+	[
+    { "number": "801", "name": "Total Physical Participants" },
+    { "number": "376", "name": "Total Online Participants" },
+    { "number": "141,503", "name": "Total Social Media Post Reach" },
+    { "number": "315", "name": "Media Houses Present at the Launch" }
+  ],
+  "eventInfo": [
+    { "category": "Event Videos", "link": "https://bit.ly/37LG4xp" },
+    { "category": "Event Photos", "link": "https://photos.app.goo.gl/F5fbynWzxt5rpQas8" }
+  ]
 }

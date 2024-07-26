@@ -1,13 +1,215 @@
 {
     "projects": [
     {
+      "date": "2017",
+      "title": "Mjasiri Platform Dar es Salaam Tanzania",
+      "imageUrl": "projects/2017mjasiri/images/project1.webp",
+      "heroImage":"/projects/2017mjasiri/images/project-hero.webp",
+      "shortDescription": "A theme which celebrated the successes of Women, Environment and people who are defying barriers.",
+      "details": {
+        "overview": "A Studio 19 initiative, this two-hour interactive show titled “Dear Future Generation” took place at the Little Theatre in Dar es Salaam, engaged a live audience of 100+ and included 6 speakers including renowned writer and participatory trainer, Richard Mabala, and seasoned academician and researcher Dr Elifuraha Mtalo. Mjasiri also included dramatic performances from Dr. Vicensia Shule and music from the talented Maembe.",
+        "subparagraph1":"",
+        "subparagraph2":"",      
+        "role": "Conceptualization, Design and branding, Programme preparation, briefing presenters, logistics, and attendee registration.",
+        "outcomes": [
+          { "number": "801", "name": "Total Physical Participants" },
+          { "number": "376", "name": "Total Online Participants" },
+          { "number": "141,503", "name": "Total Social Media Post Reach" },
+          { "number": "315", "name": "Media Houses Present at the Launch" }
+        ],
+        "eventInfo": [
+          { "category": "Event Videos", "link": "https://bit.ly/37LG4xp" },
+          { "category": "Event Photos", "link": "https://photos.app.goo.gl/F5fbynWzxt5rpQas8" }
+        ]
+      }
+    },
+    {
+      "date": "2017",
+      "title": "Sahara Sparks Dar es Salaam Tanzania",
+      "imageUrl": "projects/2017sahara-sparks/images/project1.webp",
+      "heroImage":"/projects/2017sahara-sparks/images/project-hero.webp",
+      "shortDescription": "Sahara Sparks is the largest event on Innovation and Technology Entrepreneurship in East and Central Africa.",
+      "details": {
+        "overview": "Sahara Sparks is the largest event on Innovation and Technology Entrepreneurship in East and Central Africa. The event promotes an avenue for discussion on global trending technology and supports early-stage companies by providing them a platform to pitch and exhibit their businesses to access investors and partners.",
+        "subparagraph1":"",
+        "subparagraph2":"",      
+        "role": "Creating an attractive, energetic and engaging set, lighting and branding.",
+        "outcomes": [
+          {"number":"500+","name":"Total Conference Participation"},
+          {"number":"5+","name":"Total sessions organized"}
+        ],
+       "eventinfo":[
+          {"category":"Event Photos","link":"https://bit.ly/3xYOb1s"}
+        ]
+      }
+    },
+    {
+      "date": "2017",
+      "title": "Urban Resilience Tanzania 2017 Conference (URTZ)",
+      "imageUrl": "projects/2017urtz/images/project1.webp",
+      "heroImage":"/projects/2017urtz/images/project-hero.webp",
+      "shortDescription": "Introduction to the Tanzania Urban Resilience Programme held at The Hyatt Regency Dar es Salaam, The Kilimanjaro",
+      "details": {
+        "overview": "Over the course of May 31st through June 2nd, 350 people gathered at The Kilimanjaro Hotel in Dar es Salaam to imagine the future of urbanization in Tanzania and surrounding regions. Participants included: 200+ government officials from TZ 16 honourable guests from surrounding nations 75 journalists from 42 African countries 10 local CSO representatives + donor partners and experts in the field of urban resilience",
+        "subparagraph1":"The conference served as an introduction to the Tanzania Urban Resilience Programme – a partnership between the World Bank and the UK Department for International Development that aims to support the Government of Tanzania in its endeavour to improve the country’s resilience to climate and disaster risk.",
+        "subparagraph2":"",      
+        "role": "Event management, venue coordination, branding, setup and teardown, attendee registration, vendor management, and capturing still photos.",
+        "outcomes": [
+          {"number":"200+","name":" government officials from TZ"},
+          {"number":"16","name":" honourable guests from surrounding nations"},
+          {"number":"75 ","name":"journalists from 42 African countries"},
+          {"number":"10","name":" local CSO representatives"}
+        ],
+       "eventinfo": [
+          { "category": "Event Photos", "link":"https://bit.ly/3dzuOEt"}
+        ]
+      }
+    },
+    {
+      "date": "2018",
+      "title": "FOSS4G 2018 Dar es salaam, Tanzania",
+      "imageUrl": "projects/2018foss4g/images/project4.webp",
+      "heroImage":"/projects/2018foss4g/images/project6.webp",
+      "shortDescription": "A one-week international conference (27 August to 2 September 2018) held at Julius Nyerere International Conference Centre (JNICC), Dar es Salaam",
+      "details": {
+        "overview": "A one-week international conference (27 August to 2 September 2018) held at Julius Nyerere International Conference Centre (JNICC), Dar es Salaam",
+        "subparagraph1":"The conference brought together over 1,100 programmers, thinkers, designers and practitioners from around the world, and exhibits from Google, ESRI, Microsoft, the World Bank among many others. Through six days of workshops, presentations, and discussions, FOSS4G 2018 created an effective and welcoming environment for this global conference, setting a new standard in the process.",
+        "subparagraph2":"",      
+        "role": "Communication and registration of the 1000+ attendees, design and branding, accommodations and transportation for all attendees, handling photography and videography for the event’s multiple sessions across the six days and creating both a welcome video and a farewell video which were played on the first and last day, respectively. We also organized two gala nights and entertainment, and organized excursions for the spouses of attendees to enjoy the beauty that Tanzania has to offer.",
+        "outcomes": [
+          {"number":"1100+","name":"Total Conference Participation"},
+          {"number":"30+","name":"Total sessions organized"}
+        ],
+       "eventinfo": [
+          {"category":" Event Photos","link":"https://bit.ly/3jBxvJs"}
+        ]
+      }
+    },
+    {
+      "date": "2018",
+      "title": "Lake Victoria Challenge Trial and Symposium Mwanza Tanzania",
+      "imageUrl": "projects/2018lvc/images/project4.webp",
+      "heroImage":"/projects/2018lvc/images/project-hero.webp",
+      "shortDescription": "Lake Victoria Challenge Trial and Symposium was held at Malaika Beach Resort, Mwanza, Tanzania",
+      "details": {
+        "overview": "Lake Victoria Challenge Trial and Symposium was held at Malaika Beach Resort, Mwanza, Tanzania (secondary location Juma Island-20km from Mwanza)",
+        "subparagraph1":"The conference attracted 280+ stakeholders from 23 different countries and 5 drone teams to ponder on the problem of resource distribution around the lake areas, especially remote islands, using drone technology.",
+        "subparagraph2":"",      
+        "role":"Event branding, coordinating daily logistics of transporting drone teams and their equipment between Mwanza and Juma island which is 20km away, simultaneous live coverage at Malaika Beach Resort in Mwanza as well as at Juma Island so that participants at either venue are able to follow the drone flight demonstrations, liaising with the hotel to create a safe space for drone demonstrations at the venue, live streaming all proceeding to YouTube, venue coordination and onsite management, attendee registration and communication, and vendor management.",
+        "outcomes": 
+        [
+          {"number":"300+","name":"Total Conference Participation"},
+          {"number":"20+","name":"Total sessions organized"},
+          {"number":"12+","name":"Drone Team Participated"}
+        ],
+       "eventinfo": 
+       [
+          {"category":" Event Photos (Day 1)","link":"https://bit.ly/3yhcqs2"},
+          {"category":" Event Photos (Day 2)","link":"https://bit.ly/3h6RiPf"},
+          {"category":" Event Photos (Day 3)","link":"https://bit.ly/3xeKuVn"}
+        ]
+      }
+    },
+    {
+      "date": "2019-09-2",
+      "title": "CANSO Africa Conference 2019",
+      "imageUrl": "projects/2019canso/images/project1.webp",
+      "heroImage":"/projects/2019canso/images/project-hero.webp",
+      "shortDescription": "Week-long conference (2-6 September 2019) held at Julius Nyerere International Conference Centre (JNICC), Dar es Salaam",
+      "details": {
+        "overview": "Week-long conference (2-6 September 2019) held at Julius Nyerere International Conference Centre (JNICC), Dar es Salaam",
+        "subparagraph1":"The conference brought together over 200 senior air traffic management delegates from the region and beyond.",
+        "subparagraph2":"",      
+        "role":"Event management, venue coordination, branding, setup and teardown, attendee registration, vendor management, organized three gala nights and entertainment, captured still photos, created a conference summary video, and organized an excursion to Zanzibar for the conference attendees.",
+        "outcomes": 
+        [
+          {"number":"300+","name":"Total Conference Participation"}        
+        ],
+       "eventinfo": 
+       [
+          {"category":" Event Photos","link":"https://bit.ly/3yeFXTd"}
+       ]
+      }
+    },
+    {
+      "date": "2019-11-20",
+      "title": "30th Anniversary of the Convention on the Rights of the Child",
+      "imageUrl": "projects/2019crcat30/images/project2.webp",
+      "heroImage":"/projects/2019crcat30/images/project-hero.webp",
+      "shortDescription": "On 20th November 2019 UNICEF Tanzania marked the 30th anniversary of the Convention on the Rights of the Child (CRC@30).",
+      "details": {
+        "overview": "On 20th November 2019 UNICEF Tanzania marked the 30th anniversary of the Convention on the Rights of the Child (CRC@30). The event, attended by over 700 people at the Julius Nyerere International Conference Centre in Dar es Salaam, served as a great opportunity to launch the Children’s Manifesto for Tanzania putting forth children’s rights, assessing the status of children’s rights and taking measures to strengthen awareness, understanding and the realisation of children’s rights countrywide.",
+        "subparagraph1":"700+ pax - Special Guest - former president of Tanzania, Hon. Ali Hassan Mwinyi, 300 children, Ambassadors, Development Partners, celebrities, local community, media.",
+        "subparagraph2":"",      
+        "role":"19 Events organized the entire event including branding (design, setup and teardown), venue coordination and onsite management, creation of an interactive exhibition space, entertainment and production of a theme song, transport coordination for over 300 primary and secondary school children, registration, communication and vendor management. Studio 19 also live-streamed the event on UNICEF’s YouTube page for the 4-hour duration of the event to help enhance the global visibility of the event, and captured still pictures of the event.",
+        "outcomes": 
+        [
+          {"number":"900+","name":"Total Conference Participation"},
+          {"number":"700+","name":"Online Participation"},
+          {"number":"200K+","name":"Total social media impression"},
+          {"number":"29","name":"Media houses present at the event"}
+        ],
+       "eventinfo": 
+       [
+          {"category":"Event Photos","link":"https://bit.ly/365iJ5R"}
+       ]
+      }
+    },
+    {
+      "date": "2019",
+      "title": "URTZ 2019 Zero Waste Conference",
+      "imageUrl": "projects/2019urtz/images/project4.webp",
+      "heroImage":"/projects/2019urtz/images/project-hero.webp",
+      "shortDescription": "The conference was a zero-waste event—a precedent-setting effort to promote changes that can be made at the community, producer, and government levels to transform our resource lifecycles for improved resilience",
+      "details": {
+        "overview": "The conference was a zero-waste event—a precedent-setting effort to promote changes that can be made at the community, producer, and government levels to transform our resource lifecycles for improved resilience",
+        "subparagraph1":"A 2-day conference on climate smart infrastructure, innovation, and education—featuring panel sessions, masterclasses, and exhibitions related to resilient urbanization in Tanzania",
+        "subparagraph2":"200+ attendees 70+ government officials from Tanzania 90+ donor partners, CSO reps, and experts in the field of urban resilience 30+ academic leaders 60+ artists and students participated",
+        "role":"In organizing this event, Studio 19 (Currently 19 Events) assisted TURP to oversee that all vendors complied with zero-waste guidelines which included: all branding and signage used wood stenciling, we used water dispensers with refillable water bottles and reusable glasses for all attendees, and the caterer used only reusable items and all food waste was sent to a maggot farm after the event.",
+        "outcomes": 
+        [
+          {"number":"60+","name":"artists and students"},
+          {"number":"70+","name":"government officials from Tanzania"},
+          {"number":"90+","name":" donor partners, CSO reps, and experts in the field of urban resilience"},
+          {"number":"30+ ","name":"academic leaders"}
+        ],
+       "eventinfo": 
+       [
+          {"category":"Event Photos","link":"https://bit.ly/2UjH7Ox"}
+        ]
+      }
+    },
+    {
+      "date": "2020-03-08",
+      "title": "International Women’s Day National Celebration 2020",
+      "imageUrl": "projects/2020unwomen/images/project1.webp",
+      "heroImage":"/projects/2020unwomen/images/project-hero.webp",
+      "shortDescription": "International Women’s Day 2020 campaign theme is #EachforEqual.  An equal world is an enabled world.  Individually, we’re all responsible for our own thoughts and actions – all day, every day",
+      "details": {
+        "overview": "19 Events assisted UN Women Tanzania together with the Ministry of Health, Community Development, Gender, Elderly and Children (MoHCGEC) to execute activities in Dodoma and Simiyu that brought together women entrepreneurs from regions such as Geita, Tabora, Shinyanga, Morogoro, Kagera, Arusha and Mwanza, to show how they are contributing to the development in Tanzania, their communities and families. The intergenerational focus was to celebrate gains made since 1995 and to discuss how to collectively strengthen actions to close existing gaps for the realization of the 2030 Agenda in Tanzania.",
+        "subparagraph1":"",
+        "subparagraph2":"",
+        "role":"19 Events efficiently managed the decoration of the high tables, exhibition areas, vendor management for the provision of tents, chairs and tables and provided refreshments for the 5000+ who attended the national events in Dodoma and Simiyu.",
+        "outcomes": 
+        [
+          {"number":"2000+","name":"Total Event Participation"}
+        ],
+       "eventinfo": 
+       [
+        {"category":"Event Photos","link":"https://bit.ly/3dCw6OX"}
+      ]
+      }
+    },
+    {
       "date": "2021-12-13",
       "title": "Early Childhood Development Program",
       "imageUrl": "projects/2021ecd/images/project1.webp",
-      "link": "projects/2021ecd/index.html",
+      "heroImage":"/projects/2021ecd/images/project-hero.webp",
       "shortDescription": "Launch of the National Multi-sectoral Early Childhood Development Programme.",
       "details": {
         "overview": "Tanzania launched its first multisectoral ECD program 'National Multi-sectoral Early Childhood Development Programme' (NMECDP 2021/22-2025/26) on December 13, 2021. With this, Tanzania is counted among the first countries in Eastern and Central Africa to launch such a multi-sectoral ECD Program and second in Africa after South Africa. This is a great achievement for Tanzania.",
+        "subparagraph1":"The NM-ECDP directly invests in Tanzania’s human development capital through accelerating early childhood development gains by enhancing the multi-sectoral approach to young children’s nurturing care, considering the five components of: Good health of a child and caregiver; Adequate nutrition from pregnancy; Responsive caregiving; Opportunities for early learning; and the Security and Safety of our children.  ",
+        "subparagraph2":"The event was held at the Jakaya Kikwete Convention Center in Dodoma, Tanzania and it was hosted by Taji Liundi. The launch had 801 physical participants.",      
         "role": "19 Events's role was overall Event Management, making sure that all parts of the conference are running smoothly and the event is produced at the highest level with a registration of 800+ attendants. The management included, the overall event management, branding, online and physical attendee registration and communications and event reporting.",
         "outcomes": [
           { "number": "801", "name": "Total Physical Participants" },
@@ -25,10 +227,13 @@
       "date": "2021-04-16",
       "title": "NAIA Launch Dodoma",
       "imageUrl": "projects/2021naia/images/project1.webp",
+      "heroImage":"/projects/2021naia/images/project-hero.webp",
       "link": "projects/2021naia/index.html",
       "shortDescription": "Launch of the National Accelerated Action and Investment Agenda for Adolescent Health and Wellbeing.",
       "details": {
         "overview": "On 16 April 2021, the government of Tanzania launched the National Accelerated Action and Investment (NAIA) Agenda for Adolescent Health and Wellbeing 2020/21-2023/24 at a high-level event held in Dodoma. The event was graced by Hon. Kassim Majaliwa Majaliwa, Prime Minister of the United Republic of Tanzania.",
+        "subparagraph1":"The Agenda has been developed to address challenges imparting Adolescent health and wellbeing that need to be addressed in the near to immediate term. It focuses on catalytic and accelerated actions and investments to help reverse what is potentially already, or is soon to be, a dire situation for adolescents.",
+        "subparagraph2":"The launch brought together key stakeholders to affirm their commitment towards financing and supporting the Agenda, the launch also provided a platform for adolescents themselves to display ownership of the Agenda and interact with key government officials, development partners and other staleholders on their key priorities, ASKs, role and responsibilities in ensuring that the Agenda is implemented successfully across the country.",      
         "role": "19 Events's role was overall Event Management, Communication and registration of the 1000+ attendees, design and branding, managing accommodations and transportation for all attendees, organizing two gala nights and entertainment as well as organizing excursions for spouses of attendees to enjoy the beauty that Tanzania has to offer.",
         "outcomes": [
           { "number": "141,503", "name": "Total Social Media Posts Reach" },
@@ -45,10 +250,13 @@
       "date": "2021-04-29",
       "title": "Tacaids Dodoma Conference",
       "imageUrl": "projects/2021tacaids/images/project1.webp",
+      "heroImage":"/projects/2021tacaids/images/project-hero.webp",
       "link": "projects/2021tacaids/index.html",
       "shortDescription": "Annual Meeting of Stakeholders Implementing HIV and AIDS Interventions.",
       "details": {
         "overview": "On the 29th and 30th of April, TACAIDS together with its partners conducted the Annual Meeting of Stakeholders Implementing HIV and AIDS Interventions targeting Adolescent Girls and Young Women.",
+        "subparagraph1":"The Meeting was held in Dodoma and also was streamed online via Zoom and other social media platforms for people to join",
+        "subparagraph2":"The Main Slogan for the event was 'Pamoja HainaKufeli'",      
         "role": "19 Events's role was overall Event Management, Communication and registration of the 1000+ attendees, design and branding, managing accommodations and transportation for all attendees, organizing two gala nights and entertainment as well as organizing excursions for spouses of attendees to enjoy the beauty that Tanzania has to offer.",
         "outcomes": [
           { "number": "200+", "name": "Total Conference Participation" },
@@ -62,9 +270,37 @@
       }
     },
     {
+      "date": "2021-11-05",
+      "title": "WikiIndaba",
+      "imageUrl": "projects/2021wikiindaba/images/project4.webp",
+      "heroImage":"/projects/2021wikiindaba/images/project-hero.webp",
+      "link": "projects/2021tacaids/index.html",
+      "shortDescription": "WikiIndaba Conference is the regional conference for Africans both within and in the diaspora.",
+      "details": {
+        "overview": "WikiIndaba Conference is the regional conference for Africans both within and in the diaspora.",
+        "subparagraph1":"On the 05th to 07th of November The Wikimedia Community User Group Uganda together with its partners Hosted the WIKIINDABA 2021",
+        "subparagraph3":"The WIKI INDABA 2021 was the first ever virtual Wiki Indaba conference hosted on platform called Airmeet with access to other attendees to attend through other social media platforms.",
+        "role":"19 Events's role was overall Event Management, making sure that all parts of the conference are running smoothly and the event is produced at the highest level with a registration of 400+ attendants. The management included, the overall event management, online platform (to host the conference) search and coordination, branding, attendee registration and communication, organizing online activations to reach all regions of Africa and the Diaspora.",
+        "outcomes": 
+        [
+          {"number":"200","name":"Total Sessions"},
+          {"number":"407","name":"Attendance"},
+          {"number":"478","name":"Registration"},
+          {"number":"315","name":"Online Activation Reach"},
+          {"number":"398","name":"Social Media Posts"}
+        ],
+        "eventInfo": 
+        [
+          {"category":"Event Videos","link":"https://youtu.be/b_IyGnk9A_A"},
+          {"category":"Event Photos","link":"https://photos.app.goo.gl/kf31bXCe7oNUVgAV8"}
+        ]
+      }
+    },
+    {
       "date": "2024-06-20",
       "title": "The Day of the African Child 2024",
       "imageUrl": "projects/2024unicef-dayofafricanchild/images/project1.webp",
+      "heroImage":"/projects/2024unicef-dayofafricanchild/images/project-hero.webp",
       "link": "projects/2024unicef-dayofafricanchild/index.html",
       "shortDescription": "Commemoration of the Soweto Uprising and addressing current state of education in Africa.",
       "details": {
@@ -77,23 +313,7 @@
           { "category": "Event Video", "link": "https://vimeo.com/966682318/89b4f3b9c1" }
         ]
       }
-    },
-    {
-      "date": "2020",
-      "title": "International Womens Day National Celebration 2020",
-      "imageUrl": "projects/2020unwomen/images/project1.webp",
-      "link": "projects/2020unwomen/index.html",
-      "shortDescription": "Commemoration of the Soweto Uprising and addressing current state of education in Africa.",
-      "details": {
-        "overview": "The Day of the African Child is a commemoration of the Soweto Uprising in 1976, when students protested against education injustice and inequality in the apartheid regime. Initiated by the Organisation of African Unity (now African Union), it is celebrated on June 16 every year since 1991. 19 Events organised an event to commemorate the Day of the African Child on June 20, 2024, at Karimjee Hall, Dar es Salaam. The event focused on addressing the current state of education in Africa and urging African governments to prioritize education funding, particularly for pre-primary and foundational learning. The event theme was aligned with the African Union's celebration of 2024 as the Year of Education.",
-        "role": "19 Events efficiently managed the decoration of the high tables, exhibition areas, vendor management for the provision of tents, chairs and tables and provided refreshments for the 5000+ who attended the national events in Dodoma and Simiyu.",
-        "outcomes": [
-          { "number": "2000+", "name": "Total Event Participation" }
-        ],
-        "eventInfo": [
-          { "category": "Event Video", "link": "https://vimeo.com/966682318/89b4f3b9c1" }
-        ]
-      }
     }
+    
 ]
 }

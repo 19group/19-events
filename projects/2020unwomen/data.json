@@ -9,9 +9,11 @@
   "subparagraph4":"",
   "role":"19 Events efficiently managed the decoration of the high tables, exhibition areas, vendor management for the provision of tents, chairs and tables and provided refreshments for the 5000+ who attended the national events in Dodoma and Simiyu.",
 	"outcomes":
-	[{"number":"2000+","name":"Total Event Participation"}
+	[
+    {"number":"2000+","name":"Total Event Participation"}
    ],
     "eventinfo":
-    [{"category":"Event Photos","link":"https://bit.ly/3dCw6OX"}
+    [
+      {"category":"Event Photos","link":"https://bit.ly/3dCw6OX"}
      ]
 }

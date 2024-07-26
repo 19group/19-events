@@ -9,12 +9,14 @@
   "subparagraph4":"",
   "role":"In organizing this event, Studio 19 (Currently 19 Events) assisted TURP to oversee that all vendors complied with zero-waste guidelines which included: all branding and signage used wood stenciling, we used water dispensers with refillable water bottles and reusable glasses for all attendees, and the caterer used only reusable items and all food waste was sent to a maggot farm after the event.",
 	"outcomes":
-	[{"number":"60+","name":"artists and students"},
+	[
+    {"number":"60+","name":"artists and students"},
      {"number":"70+","name":"government officials from Tanzania"},
      {"number":"90+","name":" donor partners, CSO reps, and experts in the field of urban resilience"},
      {"number":"30+ ","name":"academic leaders"}
    ],
     "eventinfo":
-    [{"category":"Event Photos","link":"https://bit.ly/2UjH7Ox"}
+    [
+      {"category":"Event Photos","link":"https://bit.ly/2UjH7Ox"}
      ]
 }
