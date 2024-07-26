@@ -1,18 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Loads the common sections
-  $('#pageheadersection').load('projectheader.html');
+  // Load the common sections
+  $('#pageheadersection').load('projectheader.html', () => {
+    fetchProjectDataAndSetBackground();
+  });
   $('#projectdetailssection').load('projectdetails.html');
   $('#projecttestimonial').load('projecttestimonial.html');
   $('#contact').load('projectcontact.html');
   $('#projectexperience').load('projectexperience.html');
   $('.colorband').load('projectcolorband.html');
   $('#footer').load('projectfooter.html');
+});
 
-  // Retrieves the selected project title from local storage
+function fetchProjectDataAndSetBackground() {
+  // Retrieve the selected project title from local storage
   const selectedProjectTitle = localStorage.getItem('selectedProject');
 
   // Fetch the project data
-  fetch('../projects/projects.json')
+  fetch('projects.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok ' + response.statusText);
@@ -23,6 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
       if (Array.isArray(data.projects)) {
         const project = data.projects.find(p => p.title === selectedProjectTitle);
         if (project) {
+          console.log('Project found:', project); // Debug log
+          
+          // Set the hero header background
+          setHeroHeaderBackground(project);
+
+          // Populate the project details
           appendHTML(project);
         } else {
           console.error('Error: Project not found');
@@ -32,18 +42,19 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     })
     .catch(error => console.error('Error fetching project data:', error));
-});
+}
+
+function setHeroHeaderBackground(project) {
+  const style = document.createElement('style');
+  style.innerHTML = `
+    #hero-header {
+      background: url(${project.heroImage}) bottom center;
+    }
+  `;
+  document.head.appendChild(style);
+}
 
 function appendHTML(data) {
-  // Adds more information to the page
-  $.each(data.details.eventInfo, function(key, val) {
-    var category = $("<label>" + val.category + "</label>" +
-      "<a href='" + val.link + "' target='_blank'>" +
-      "<p>" + val.link + "</p>" +
-      "</a>");
-    $("#eventinfocontainer").append(category);
-  });
-
   var projectheader = "<h1 class='mb-4 pb-0'>" + data.title + "</h1>";
   // Add the main page components
   $("#pageheadercontainer").append(projectheader);
@@ -54,7 +65,7 @@ function appendHTML(data) {
   $("#subparagraph4").append(data.details.additionalParagraph4);
   $("#roleparagraph").append(data.details.role);
 
-  // Populates outcomes
+  // Populate outcomes
   const outcomeContainer = document.getElementById('outcomecontainer');
   data.details.outcomes.forEach(outcome => {
     const outcomeDiv = document.createElement('div');
@@ -70,7 +81,7 @@ function appendHTML(data) {
     outcomeContainer.appendChild(outcomeDiv);
   });
 
-  // Populates testimonials if available
+  // Populate testimonials if available
   if (data.details.testimonials) {
     const testimonialContainer = document.createElement('div');
     testimonialContainer.className = 'testimonials';
