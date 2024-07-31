@@ -1,0 +1,25 @@
+// _filter-button.scss
+
+// Import Bootstrap for access to .btn classes
+@import '../../vendor/bootstrap/css/bootstrap';
+
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  .filter-button {
+    @extend .btn;
+    @extend .btn-outline-primary;
+    margin: 5px;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: #ffc107;
+      border-color: #ffc107;
+      color: #fff;
+    }
+  }
+}
