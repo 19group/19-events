@@ -1408,6 +1408,7 @@ height: 240px;
 
 #projectexperience a {
   color: #152b79;
+  text-decoration:none;
 }
 
 #projectexperience a:hover {

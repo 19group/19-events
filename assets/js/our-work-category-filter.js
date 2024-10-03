@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="${project.imageUrl}" alt="${project.title}" class="img-fluid" style="height:325px;">
               </div>
               <div class="work-content">
-                <h3><a href="javascript:void(0)">${project.title}</a></h3>
+                <h3><a href="${project.link}">${project.title}</a></h3>
                 <p>${project.shortDescription}</p>
               </div>
             </div>
