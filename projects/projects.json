@@ -4,7 +4,7 @@
         "date": "2024-06-20",
         "title": "The Day of the African Child 2024",
         "imageUrl": "projects/2024unicef-dayofafricanchild/images/project1.webp",
-        "heroImage":"/projects/2024unicef-dayofafricanchild/images/project-hero.webp",
+        "heroImage":"2024unicef-dayofafricanchild/images/project-hero.webp",
         "link": "projects/2024unicef-dayofafricanchild/index.html",
         "shortDescription": "Commemoration of the Soweto Uprising and addressing current state of education in Africa.",
         "category":"ngo",
@@ -23,8 +23,8 @@
       "date": "2021-11-05",
       "title": "WikiIndaba",
       "imageUrl": "projects/2021wikiindaba/images/project4.webp",
-      "heroImage":"/projects/2021wikiindaba/images/project-hero.webp",
-      "link": "projects/2021tacaids/index.html",
+      "heroImage":"2021wikiindaba/images/project-hero.webp",
+      "link": "projects/2021wikiindaba/index.html",
       "shortDescription": "WikiIndaba Conference is the regional conference for Africans both within and in the diaspora.",
       "category":"private",
       "details": {
@@ -51,7 +51,7 @@
       "date": "2021-04-29",
       "title": "Annual Meeting of Stakeholders Implementing HIV and AIDS Intervations targeting Adolescent Girls and Young Women (TACAIDS)",
       "imageUrl": "projects/2021tacaids/images/project1.webp",
-      "heroImage":"/projects/2021tacaids/images/project-hero.webp",
+      "heroImage":"2021tacaids/images/project-hero.webp",
       "link": "projects/2021tacaids/index.html",
       "shortDescription": "Annual Meeting of Stakeholders Implementing HIV and AIDS Interventions.",
       "category":"government",
@@ -75,7 +75,7 @@
       "date": "2021-12-13",
       "title": "Early Childhood Development Program",
       "imageUrl": "projects/2021ecd/images/project1.webp",
-      "heroImage":"/projects/2021ecd/images/project-hero.webp",
+      "heroImage":"2021ecd/images/project-hero.webp",
       "shortDescription": "Launch of the National Multi-sectoral Early Childhood Development Programme.",
       "category":"government",
       "details": {
@@ -99,7 +99,7 @@
       "date": "2021-04-16",
       "title": "NAIA Launch Dodoma",
       "imageUrl": "projects/2021naia/images/project1.webp",
-      "heroImage":"/projects/2021naia/images/project-hero.webp",
+      "heroImage":"2021naia/images/project-hero.webp",
       "link": "projects/2021naia/index.html",
       "shortDescription": "Launch of the National Accelerated Action and Investment Agenda for Adolescent Health and Wellbeing.",
       "category":"government",
@@ -123,7 +123,7 @@
       "date": "2017",
       "title": "Mjasiri Platform Dar es Salaam Tanzania",
       "imageUrl": "projects/2017mjasiri/images/project1.webp",
-      "heroImage":"/projects/2017mjasiri/images/project-hero.webp",
+      "heroImage":"2017mjasiri/images/project-hero.webp",
       "shortDescription": "A theme which celebrated the successes of Women, Environment and people who are defying barriers.",
       "category":"inhouse",
       "details": {
@@ -147,7 +147,7 @@
       "date": "2017",
       "title": "Sahara Sparks Dar es Salaam Tanzania",
       "imageUrl": "projects/2017sahara-sparks/images/project1.webp",
-      "heroImage":"/projects/2017sahara-sparks/images/project-hero.webp",
+      "heroImage":"2017sahara-sparks/images/project-hero.webp",
       "shortDescription": "Sahara Sparks is the largest event on Innovation and Technology Entrepreneurship in East and Central Africa.",
       "category":"private",
       "details": {
@@ -168,7 +168,7 @@
       "date": "2017",
       "title": "Urban Resilience Tanzania 2017 Conference (URTZ)",
       "imageUrl": "projects/2017urtz/images/project1.webp",
-      "heroImage":"/projects/2017urtz/images/project-hero.webp",
+      "heroImage":"2017urtz/images/project-hero.webp",
       "shortDescription": "Introduction to the Tanzania Urban Resilience Programme held at The Hyatt Regency Dar es Salaam, The Kilimanjaro",
       "category":"private",
       "details": {
@@ -191,7 +191,7 @@
       "date": "2018",
       "title": "FOSS4G 2018 Dar es salaam, Tanzania",
       "imageUrl": "projects/2018foss4g/images/project4.webp",
-      "heroImage":"/projects/2018foss4g/images/project6.webp",
+      "heroImage":"2018foss4g/images/project6.webp",
       "shortDescription": "A one-week international conference (27 August to 2 September 2018) held at Julius Nyerere International Conference Centre (JNICC), Dar es Salaam",
       "category":"private",
       "details": {
@@ -212,7 +212,7 @@
       "date": "2018",
       "title": "Lake Victoria Challenge Trial and Symposium Mwanza Tanzania",
       "imageUrl": "projects/2018lvc/images/project4.webp",
-      "heroImage":"/projects/2018lvc/images/project-hero.webp",
+      "heroImage":"2018lvc/images/project-hero.webp",
       "shortDescription": "Lake Victoria Challenge Trial and Symposium was held at Malaika Beach Resort, Mwanza, Tanzania",
       "category":"private",
       "details": {
@@ -238,7 +238,7 @@
       "date": "2019-09-2",
       "title": "CANSO Africa Conference 2019",
       "imageUrl": "projects/2019canso/images/project1.webp",
-      "heroImage":"/projects/2019canso/images/project-hero.webp",
+      "heroImage":"2019canso/images/project-hero.webp",
       "category":"government",
       "shortDescription": "Week-long conference (2-6 September 2019) held at Julius Nyerere International Conference Centre (JNICC), Dar es Salaam",
       "details": {
@@ -260,7 +260,7 @@
       "date": "2019-11-20",
       "title": "30th Anniversary of the Convention on the Rights of the Child",
       "imageUrl": "projects/2019crcat30/images/project2.webp",
-      "heroImage":"/projects/2019crcat30/images/project-hero.webp",
+      "heroImage":"2019crcat30/images/project-hero.webp",
       "category":"ngo",
       "shortDescription": "On 20th November 2019 UNICEF Tanzania marked the 30th anniversary of the Convention on the Rights of the Child (CRC@30).",
       "details": {
@@ -285,7 +285,7 @@
       "date": "2019",
       "title": "URTZ 2019 Zero Waste Conference",
       "imageUrl": "projects/2019urtz/images/project4.webp",
-      "heroImage":"/projects/2019urtz/images/project-hero.webp",
+      "heroImage":"2019urtz/images/project-hero.webp",
       "shortDescription": "The conference was a zero-waste event—a precedent-setting effort to promote changes that can be made at the community, producer, and government levels to transform our resource lifecycles for improved resilience",
       "category":"private",
       "details": {
@@ -310,7 +310,7 @@
       "date": "2020-03-08",
       "title": "International Women’s Day National Celebration 2020",
       "imageUrl": "projects/2020unwomen/images/project1.webp",
-      "heroImage":"/projects/2020unwomen/images/project-hero.webp",
+      "heroImage":"2020unwomen/images/project-hero.webp",
       "shortDescription": "International Women’s Day 2020 campaign theme is #EachforEqual.  An equal world is an enabled world.  Individually, we’re all responsible for our own thoughts and actions – all day, every day",
       "category":"ngo",
       "details": {

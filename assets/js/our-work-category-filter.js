@@ -39,10 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
           projectCard.innerHTML = `
             <div class="hotel" onclick="viewProject('${project.title}')">
               <div class="hotel-img">
-                <img src="${project.imageUrl}" alt="${project.title}" class="img-fluid" style="height:325px;">
+                <img src="projects/index.html" alt="${project.title}" class="img-fluid" style="height:325px;">
               </div>
               <div class="work-content">
-                <h3><a href="${project.link}">${project.title}</a></h3>
+                <h3><a href="projects/index.html">${project.title}</a></h3>
                 <p>${project.shortDescription}</p>
               </div>
             </div>
@@ -68,6 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
   function viewProject(title) {
     localStorage.setItem('selectedProject', title);
-    window.location.href = 'project-details.html';
+    window.location.href = 'projects/index.html';
   }
   
