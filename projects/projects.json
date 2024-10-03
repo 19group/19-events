@@ -5,7 +5,6 @@
         "title": "The Day of the African Child 2024",
         "imageUrl": "projects/2024unicef-dayofafricanchild/images/project1.webp",
         "heroImage":"2024unicef-dayofafricanchild/images/project-hero.webp",
-        "link": "projects/2024unicef-dayofafricanchild/index.html",
         "shortDescription": "Commemoration of the Soweto Uprising and addressing current state of education in Africa.",
         "category":"ngo",
         "details": {
@@ -15,7 +14,8 @@
             { "number": "2000+", "name": "Total Event Participation" }
           ],
           "eventInfo": [
-            { "category": "Event Video", "link": "https://vimeo.com/966682318/89b4f3b9c1" }
+            { "category": "Event Video", "link": "https://vimeo.com/966682318/89b4f3b9c1" },
+            {"category": "Event Pictures","link":"https://19-events.client-gallery.com/gallery/day-of-the-african-child"}
           ]
         }
       },
@@ -24,7 +24,6 @@
       "title": "WikiIndaba",
       "imageUrl": "projects/2021wikiindaba/images/project4.webp",
       "heroImage":"2021wikiindaba/images/project-hero.webp",
-      "link": "projects/2021wikiindaba/index.html",
       "shortDescription": "WikiIndaba Conference is the regional conference for Africans both within and in the diaspora.",
       "category":"private",
       "details": {
