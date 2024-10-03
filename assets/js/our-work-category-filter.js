@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
           projectCard.innerHTML = `
             <div class="hotel" onclick="viewProject('${project.title}')">
               <div class="hotel-img">
-                <img src="${project.imageUrl}" alt="${project.title}" class="img-fluid" style="height:325px;width:356.66px;">
+                <img src="${project.imageUrl}" alt="${project.title}" class="img-fluid" style="height:325px;">
               </div>
               <div class="work-content">
                 <h3><a href="javascript:void(0)">${project.title}</a></h3>
