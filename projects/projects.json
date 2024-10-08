@@ -9,12 +9,25 @@
         "category":"ngo",
         "details": {
           "overview": "The U.S.-Tanzania Tech Challenge, held in Dar es Salaam on September 18-19, 2024, spanned two days. On the first day, selected technologists presented their solutions and demonstrated their impact to a panel of judges. The second day included panel discussions among technologists, government officials, civil society, academia, and media, where they exchanged lessons learned and explored opportunities for collaboration in addressing key challenges",
+          "subparagraph1":"Test Sub Paragraph",
           "role": "19 Events collaborated with Caste Point Productions to manage the event’s production, overseeing all aspects of logistics and coordination. In addition to managing the event flow, 19 Events was responsible for documenting the entire event, capturing key moments and highlights to ensure a comprehensive record of the proceedings.",
           "outcomes": [
             { "number": "150+", "name": "Total Event Participation" }
           ],
           "eventInfo": [
             { "category": "Event Video", "link": "https://www.youtube.com/watch?v=ao8nkzcBreU&ab_channel=USEmbassyTZ" }
+          ],
+          "images": 
+          [
+            {"image":"image1","link":"2024/techchallenge/project1.jpg"},
+            {"image":"image2","link":"2024/techchallenge/project2.jpg"},
+            {"image":"image3","link":"2024/techchallenge/project3.jpg"},
+            {"image":"image4","link":"2024/techchallenge/project4.jpg"},
+            {"image":"image5","link":"2024/techchallenge/project5.jpg"},
+            {"image":"image6","link":"2024/techchallenge/project6.jpg"},
+            {"image":"image7","link":"2024/techchallenge/project7.jpg"},
+            {"image":"image8","link":"2024/techchallenge/project8.jpg"}
+
           ]
         }
       },

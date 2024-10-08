@@ -74,6 +74,7 @@ function appendHTML(data) {
   $("#subparagraph4").append(data.details.subparagraph4);
   $("#roleparagraph").append(data.details.role);
 
+
   // Populate outcomes
   const outcomeContainer = document.getElementById('outcomecontainer');
   data.details.outcomes.forEach(outcome => {
@@ -89,6 +90,21 @@ function appendHTML(data) {
     `;
     outcomeContainer.appendChild(outcomeDiv);
   });
+  //Populate Images if Available 
+  const imageContainer = document.getElementById('imagelist');
+  data.details.images.forEach(image => {
+    const imagediv = document.createElement('div');
+    imagediv.className = 'col-lg-3 col-md-4';
+    imagediv.innerHTML = `
+        <div class="venue-gallery">
+          <a href="${image.link}" class="glightbox" data-gall="venue-gallery">
+            <img src="${image.link}" alt="" class="img-fluid">
+          </a>
+        </div>
+    `;
+    imageContainer.appendChild(imagediv);
+  });
+
 
   // Populate testimonials if available
   if (data.details.testimonials) {
