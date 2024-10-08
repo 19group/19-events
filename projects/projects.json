@@ -1,6 +1,24 @@
 {
     "projects": [
       {
+        "date": "18th and 19th September 2024",
+        "title": "2024 U.S. – Tanzania Tech Challenge",
+        "imageUrl": "projects/2024/techchallenge/project2.jpg",
+        "heroImage":"2024/techchallenge/main.jpg",
+        "shortDescription": "The U.S.-Tanzania Tech Challenge, held in Dar es Salaam on September 18-19, 2024, was a two-day event that gathered innovators, policymakers, and thought leaders to showcase technological solutions addressing critical challenges in Tanzania and the region.",
+        "category":"ngo",
+        "details": {
+          "overview": "The U.S.-Tanzania Tech Challenge, held in Dar es Salaam on September 18-19, 2024, spanned two days. On the first day, selected technologists presented their solutions and demonstrated their impact to a panel of judges. The second day included panel discussions among technologists, government officials, civil society, academia, and media, where they exchanged lessons learned and explored opportunities for collaboration in addressing key challenges",
+          "role": "19 Events collaborated with Caste Point Productions to manage the event’s production, overseeing all aspects of logistics and coordination. In addition to managing the event flow, 19 Events was responsible for documenting the entire event, capturing key moments and highlights to ensure a comprehensive record of the proceedings.",
+          "outcomes": [
+            { "number": "150+", "name": "Total Event Participation" }
+          ],
+          "eventInfo": [
+            { "category": "Event Video", "link": "https://www.youtube.com/watch?v=ao8nkzcBreU&ab_channel=USEmbassyTZ" }
+          ]
+        }
+      },
+      {
         "date": "2024-06-20",
         "title": "The Day of the African Child 2024",
         "imageUrl": "projects/2024unicef-dayofafricanchild/images/project1.webp",
