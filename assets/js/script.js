@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then(data => {
       if (Array.isArray(data.projects)) {
-        displayProjects(data.projects, 'all');
+        // Filter projects that have status 'publish'
+        const publishedProjects = data.projects.filter(project => project.status === 'publish');
+        
+        // Now display only the projects that are published
+        displayProjects(publishedProjects, filter);
       } else {
         console.error('Error: Data is not an array');
       }
